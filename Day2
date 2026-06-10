@@ -15,3 +15,28 @@ Contract Accounts: controlled by smart contract code.
 The chapter introduces Solidity by creating a simple Faucet smart contract that can receive ETH and allow limited withdrawals.
 The contract is compiled using Remix IDE, deployed on the Sepolia testnet, funded with test ETH, and interacted with through MetaMask.
 The key takeaway is that smart contracts are programs that can control digital assets on Ethereum, and users can deploy and interact with them using wallets and transactions.
+
+Short Summary of Chapter 3: Ethereum Nodes
+An Ethereum node is software that follows Ethereum's rules and communicates with other nodes on the network.
+After The Merge (2022), a node requires two clients:
+Execution Client: Executes transactions and smart contracts in the EVM.
+Consensus Client: Maintains consensus using Proof of Stake (PoS).
+Popular execution clients include Geth, Nethermind, Besu, Erigon, and Reth. Popular consensus clients include Prysm, Lighthouse, Teku, Nimbus, and Lodestar.
+Full nodes download and validate blockchain data independently, improving Ethereum's security and censorship resistance.
+Archive nodes store all historical blockchain data, while full nodes prune older state data to save space.
+Running a full node has benefits (privacy, independence, direct blockchain access) but requires significant storage, bandwidth, and maintenance.
+Alternatives for development include:
+Public testnets (e.g., Sepolia)
+Local blockchain simulations (e.g., Anvil)
+Hosted node providers (e.g., Infura, Alchemy).
+To run a mainnet full node, recommended hardware includes:
+4+ core CPU
+16+ GB RAM
+2+ TB NVMe SSD
+Fast internet connection.
+The chapter demonstrates setting up Ethereum nodes using:
+Geth + Prysm
+Reth + Lighthouse.
+Ethereum clients expose a JSON-RPC API, allowing applications to interact with the blockchain programmatically. Common methods include retrieving client versions and gas prices.
+Remote clients (wallets) like MetaMask, Rabby, Phantom, and Coinbase Wallet rely on full nodes instead of storing the blockchain themselves.
+Future Ethereum improvements include history pruning, Verkle trees, statelessness, and zk-EVM technologie
