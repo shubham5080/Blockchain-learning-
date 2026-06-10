@@ -1,0 +1,6 @@
+Chapter 4) cryptography 
+1)cryptography means secret writing 
+2)no part of the Ethereum protocol involves encryption; that is to say all communications with the Ethereum platform and between nodes (including transaction data) are unencrypted and can (necessarily) be read by anyone. 
+3) public key cryptography (PKC), which is used to control ownership of funds, in the form of private keys and addresses.
+4)Ownership of ether by EOAs is established through digital private keys, Ethereum addresses, and digital signatures.account addresses are derived directly from private keys: a private key uniquely determines a single Ethereum address, also known as an account.
+5)Private keys are not used directly in the Ethereum system in any way; they are never transmitted or stored on Ethereum. That is to say that private keys should remain private and should never appear in messages passed to the network, nor should they be stored on chain; only account addresses and digital signatures are ever transmitted and stored on the Ethereum system. For more information on how to keep private keys safe and secure, see "Wallet Best Practices".
