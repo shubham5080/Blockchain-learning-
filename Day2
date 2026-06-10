@@ -1,2 +1,17 @@
 1)today i read the second chapter and third chapter of the masktering ethereum book -> https://masteringethereum.xyz/chapter_2.html & https://masteringethereum.xyz/chapter_3.html 
 2)I already know majority topics in the chapter 2 an 3 so it done to fast .
+
+#Summary  by chatgpt ->
+Ether (ETH) is Ethereum's currency, and its smallest unit is wei (1 ETH = 10¹⁸ wei).
+Wallets like MetaMask, Rabby, and Phantom help users manage Ethereum accounts and sign transactions.
+Users should control their own private keys and securely back up their 12-word seed phrase, preferably on paper. Losing it means losing access to funds permanently.
+MetaMask can connect to different networks, including Ethereum Mainnet, Sepolia, and Holesky testnets.
+Test ETH can be obtained from Sepolia faucets to practice without risking real money.
+Every Ethereum transaction requires gas fees, paid in ETH, even on test networks.
+Ethereum is more than a cryptocurrency; it is a decentralized world computer powered by the Ethereum Virtual Machine (EVM).
+There are two types of accounts:
+EOAs (Externally Owned Accounts): controlled by private keys.
+Contract Accounts: controlled by smart contract code.
+The chapter introduces Solidity by creating a simple Faucet smart contract that can receive ETH and allow limited withdrawals.
+The contract is compiled using Remix IDE, deployed on the Sepolia testnet, funded with test ETH, and interacted with through MetaMask.
+The key takeaway is that smart contracts are programs that can control digital assets on Ethereum, and users can deploy and interact with them using wallets and transactions.
